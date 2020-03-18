@@ -1,0 +1,49 @@
+.Dialer {
+  margin: 3rem auto;
+  width: 12rem;
+}
+
+.Dialer .Display {
+  font-size: 4rem;
+  color: #000;
+  text-align: center;
+  width: 100%;
+  margin: 0 0 2rem;
+}
+
+.Dialer .DialerPad {
+  display: flex;
+  flex-flow: row wrap;
+  width: 12rem;
+}
+
+.Dialer .DialerActions {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 12rem;
+}
+
+.Dialer .DialerActions button {
+  display: flex;
+  flex: 1 30%;
+  align-content: center;
+  margin: 0.2rem;
+  width: 30%;
+  height: 3rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #fce;
+  color: fff;
+  border: 0.1rem solid #d3a;
+  border-radius: 3px;
+}
+
+.Dialer .DialerActions .Submit {
+  background-color: #3f2;
+  border: 0.1rem solid #1a1;
+}
+
+.Dialer .DialerActions .Clear {
+  background-color: #f23;
+  border: 0.1rem solid #a11;
+}

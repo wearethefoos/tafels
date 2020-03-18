@@ -1,0 +1,30 @@
+.Exercise {
+  display: flex;
+  align-self: center;
+  flex-flow: row;
+  align-items: center;
+  align-content: space-around;
+  margin: 2.5rem auto 1rem;
+  font-size: 8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Exercise div {
+  flex: 1;
+}
+
+.Exercise .counter {
+  color: #3cf;
+}
+
+.Exercise .multiplier {
+  color: #f3c;
+}
+
+.Exercise .times {
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 4rem;
+  margin: 0 2rem;
+}

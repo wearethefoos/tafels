@@ -1,0 +1,15 @@
+.DialerKey {
+  display: flex;
+  flex: 1 30%;
+  align-content: center;
+  margin: 0.2rem;
+  width: 30%;
+  height: 3rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #fce;
+  color: fff;
+  border: 0.1rem solid #d3a;
+  border-radius: 3px;
+  font-weight: bold;
+}
